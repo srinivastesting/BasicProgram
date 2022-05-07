@@ -11,11 +11,13 @@ public class ArrayListDemo {
 		EmployeeData e=new EmployeeData("Srinivas",29,"cse");
 		EmployeeData e1=new EmployeeData("Rachana",24,"Pharmacy");
 		EmployeeData e2=new EmployeeData("Ramya",21,"CSE");
+		EmployeeData e3=new EmployeeData("Varsha",15,"CSE");
 		
 		ArrayList<EmployeeData> al=new ArrayList<EmployeeData>();
 		al.add(e);
 		al.add(e1);
 		al.add(e2);
+		al.add(e3);
 		
 		Iterator<EmployeeData> it=al.iterator();
 		while(it.hasNext()) {
